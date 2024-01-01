@@ -182,7 +182,6 @@ input[type="submit"]:active
 }
 
 
-/* Add this to your existing CSS file or create a new one */
 
 .social-links {
     position: fixed;
@@ -190,20 +189,20 @@ input[type="submit"]:active
     right: 30px;
     display: flex;
     align-items: center;
-    z-index: 1000; /* Set a high z-index to make sure the links appear on top */
+    z-index: 1000; 
 }
 
 .social-links a.github-link,
 .social-links a.linkedin-link {
     margin-left: 10px;
     text-decoration: none;
-    color: #000; /* Set the color you prefer for the icons */
-    z-index: 1000; /* Set a high z-index to make sure the links appear on top */
+    color: #000; 
+    z-index: 1000; 
 }
 
 .social-links a.github-link img,
 .social-links a.linkedin-link img {
-    width: 90px; /* Adjust the width of the icons as needed */
-    height: 90px; /* Adjust the height of the icons as needed */
+    width: 90px; 
+    height: 90px; 
 }
 
